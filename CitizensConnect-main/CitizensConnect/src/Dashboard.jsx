@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useAuth } from "./context/AuthContext";
 import { useSocket } from "./context/SocketContext";
 import { CheckCircle, Clock, TrendingUp, Users, MessageSquare, AlertTriangle, Shield, FileText } from "lucide-react";
-import BarChart from "./Components/Charts/BarChart";
-import DoughnutChart from "./Components/Charts/DoughnutChart";
-import LineChart from "./Components/Charts/LineChart";
+import BarChart from "./temp2/Charts/BarChart";
+import DoughnutChart from "./temp2/Charts/DoughnutChart";
+import LineChart from "./temp2/Charts/LineChart";
 import "./Dashboard.css";
 
 const Dashboard = () => {
