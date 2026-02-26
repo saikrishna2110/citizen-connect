@@ -6,13 +6,13 @@ import Representatives from "./Representatives";
 import Updates from "./Updates";
 import Issues from "./Issues";
 import NewsPage from "./pages/NewsPage.jsx";
-import NewsTicker from "./temp2/NewsTicker.jsx";
-import Login from "./temp2/Login.jsx";
+import NewsTicker from "./components/NewsTicker.jsx";
+import Login from "./components/Login.jsx";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import { SocketProvider } from "./context/SocketContext";
 
 import "./App.css";
-import "./temp2/Login.css";
+import "./components/Login.css";
 
 import { FaUserCircle, FaBars, FaTimes, FaSignOutAlt } from "react-icons/fa";
 
