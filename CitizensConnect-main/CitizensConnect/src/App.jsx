@@ -5,7 +5,7 @@ import Dashboard from "./Dashboard";
 import Representatives from "./Representatives";
 import Updates from "./Updates";
 import Issues from "./Issues";
-import NewsPage from "./temp/NewsPage.jsx";
+import NewsPage from "./pages/NewsPage.jsx";
 import NewsTicker from "./components/NewsTicker";
 import Login from "./components/Login";
 import { AuthProvider, useAuth } from "./context/AuthContext";
