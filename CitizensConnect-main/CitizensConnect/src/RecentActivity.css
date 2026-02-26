@@ -1,0 +1,72 @@
+.recent-activity {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.activity-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #6a47f2;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.activity-content p {
+  margin: 0;
+}
+
+.activity-content small {
+  color: #777;
+}
+
+@media (max-width: 900px) {
+  .App, .dashboard, .recent-activity {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  main {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  header .logo h1 {
+    font-size: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+  }
+
+  .stat-item {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .activity-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
